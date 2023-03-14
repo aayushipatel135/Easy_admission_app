@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "571443183178",
+    "project_id": "easyadmission-9c009",
+    "storage_bucket": "easyadmission-9c009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571443183178:android:0de472356500554ca670b3",
+        "android_client_info": {
+          "package_name": "com.example.easyadimission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571443183178-4n8j90q85rr2vs2legeeg2nf00jn777m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLc5pRhRCrFospFS32IL_13m-hPQK1ctU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571443183178-4n8j90q85rr2vs2legeeg2nf00jn777m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571443183178:android:435da1143554370ea670b3",
+        "android_client_info": {
+          "package_name": "com.example.easyadmission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571443183178-u5ikkhb5i9vclqnuhr1h1kmfr2e6nev4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easyadmission",
+            "certificate_hash": "1cae5cf75425e5b648661d0bbdadd4a2d96e5943"
+          }
+        },
+        {
+          "client_id": "571443183178-4n8j90q85rr2vs2legeeg2nf00jn777m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLc5pRhRCrFospFS32IL_13m-hPQK1ctU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571443183178-4n8j90q85rr2vs2legeeg2nf00jn777m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

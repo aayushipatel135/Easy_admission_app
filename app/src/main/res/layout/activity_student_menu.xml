@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#A4CEEF"
+    android:layout_height="match_parent"
+    tools:context=".Student.Student_menu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dip"
+                    android:layout_weight="0.5"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/student_basic_information"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="5dp"
+                    tools:ignore="MissingConstraints"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:padding="10dp"
+                        android:src="@drawable/student_information" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:text="Personal Details"
+                        android:textAlignment="center"
+                        android:textColor="#043850"
+                        android:textStyle="bold"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dip"
+                    android:layout_weight="0.5"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/Visit_institute_student"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="5dp"
+                    tools:ignore="MissingConstraints"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:padding="10dp"
+                        android:src="@drawable/visit_institutes" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:text="Institute Details"
+                        android:textAlignment="center"
+                        android:textColor="#043850"
+                        android:textStyle="bold"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dip"
+                    android:layout_weight="0.5"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/Apply_for_institute_student"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="5dp"
+                    tools:ignore="MissingConstraints"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:padding="10dp"
+                        android:src="@drawable/apply" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:textColor="#043850"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="Apply For Institute"/>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dip"
+                    android:layout_weight="0.5"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/Merit_list_student"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="5dp"
+                    tools:ignore="MissingConstraints"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:padding="10dp"
+                        android:src="@drawable/merit_list" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:text="Merit List"
+                        android:textAlignment="center"
+                        android:textColor="#043850"
+                        android:textStyle="bold"
+
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

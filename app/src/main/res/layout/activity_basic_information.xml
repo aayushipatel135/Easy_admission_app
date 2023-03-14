@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Institute.Basic_information"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:id="@+id/basic_information"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="10dp"
+            tools:ignore="MissingConstraints"
+            >
+            <TextView
+                android:id="@+id/student_title"
+                android:drawablePadding="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:textColor="#043850"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                app:layout_constraintWidth_percent=".8"
+                android:elevation="3dp"
+                android:text="Institute Details"
+                android:padding="9dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A4CEEF"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="0dp"
+                android:gravity="center|center_vertical"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints"
+                >
+
+                <EditText
+                    android:id="@+id/institute_name"
+                    android:drawablePadding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:ems="10"
+                    app:layout_constraintWidth_percent=".8"
+                    android:elevation="3dp"
+                    android:hint="Institute Name"
+                    android:background="@drawable/edittext_background"
+                    android:padding="9dp" />
+
+
+                <EditText
+                    android:id="@+id/institute_email"
+                    android:drawablePadding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:ems="10"
+                    app:layout_constraintWidth_percent=".8"
+                    android:elevation="3dp"
+                    android:hint="Institute E-mail"
+                    android:background="@drawable/edittext_background"
+                    android:padding="9dp" />
+
+
+                <EditText
+                    android:id="@+id/About_Institute_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:ems="10"
+                    android:background="@drawable/edittext_background"
+                    android:hint="About Institute"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:id="@+id/upload_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/corners"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:paddingLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:drawableLeft="@drawable/ic_college_graduation_svgrepo_com"
+                    android:text="Choose Institute Logo"
+                    app:backgroundTint="@color/main" />
+                <TextView
+                    android:id="@+id/jpeg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#043850"
+                    android:text="**Only jpeg files allowed" />
+
+                <Button
+                    android:id="@+id/institute_basic_information_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/corners"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textStyle="bold"
+                    android:text="Submit"
+                    app:backgroundTint="@color/main" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

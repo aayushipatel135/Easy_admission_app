@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easyadmission">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyAdmission">
+        <activity android:name=".Institute.SendOTPActivity1"></activity>
+        <activity android:name=".Student.VerifyOTPActivity" />
+        <activity android:name=".Institute.hostel_fee_structure" />
+        <activity android:name=".Institute.institute_fee_structure" />
+        <activity android:name=".Student.Student_institute_onclick" />
+        <activity android:name=".Institute.Update_course_institute" />
+        <activity android:name=".Student.merit_list_student" />
+        <activity android:name=".Student.apply_now_student" />
+        <activity android:name=".Student.Institutes_student" />
+        <activity android:name=".Student.Student_Basic_information" />
+        <activity android:name=".Student.Student_menu" />
+        <activity android:name=".Institute.Fee_structure_institute" />
+        <activity android:name=".Institute.Hostel_Institute" />
+        <activity android:name=".Institute.Campus_information_institute" />
+        <activity android:name=".Institute.Update_faculty_list_institute" />
+        <activity android:name=".Institute.syllabus_institute" />
+        <activity android:name=".Institute.Faculty_details_institute" />
+        <activity android:name=".Institute.Basic_information" />
+        <activity android:name=".Institute.Institute_menu" />
+        <activity android:name=".Institute.InstituteSignUp" />
+        <activity android:name=".Student.StudentSignUp" />
+        <activity android:name=".Institute.InstituteLogin" />
+        <activity android:name=".Student.StudentLogin" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.EasyAdmission">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

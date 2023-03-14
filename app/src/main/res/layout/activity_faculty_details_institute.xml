@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".Institute.Faculty_details_institute"
+     >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/background"
+         android:orientation="vertical">
+     </LinearLayout>
+
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="center|center_vertical"
+         android:orientation="vertical"
+         tools:ignore="MissingConstraints"
+         >
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_weight="0.5"
+             android:layout_height="250dp"
+             android:layout_gravity="center"
+             android:id="@+id/basic_information"
+             app:cardCornerRadius="10dp"
+             app:cardElevation="3dp"
+             app:cardUseCompatPadding="true"
+             app:contentPadding="10dp"
+             tools:ignore="MissingConstraints"
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginStart="0dp"
+                 android:layout_marginLeft="0dp"
+                 android:layout_marginTop="50dp"
+                 android:layout_marginRight="0dp"
+                 android:gravity="center|center_vertical"
+                 android:orientation="vertical"
+                 tools:ignore="MissingConstraints"
+                 >
+                 <TextView
+                     android:id="@+id/student_title"
+                     android:drawablePadding="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:textAlignment="center"
+                     android:textColor="#043850"
+                     android:textStyle="bold"
+                     android:layout_marginBottom="10dp"
+                     android:ems="10"
+                     app:layout_constraintWidth_percent=".8"
+                     android:elevation="3dp"
+                     android:text="Faculty Details"
+                     android:padding="9dp" />
+
+                 <EditText
+                     android:id="@+id/institute_name_upload_faculty"
+                     android:drawablePadding="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="10dp"
+                     android:ems="10"
+                     app:layout_constraintWidth_percent=".8"
+                     android:elevation="3dp"
+                     android:hint="Institute name"
+                     android:background="@drawable/edittext_background"
+                     android:padding="9dp" />
+                 <EditText
+                     android:id="@+id/id"
+                     android:drawablePadding="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="10dp"
+                     android:ems="10"
+                     app:layout_constraintWidth_percent=".8"
+                     android:elevation="3dp"
+                     android:hint="Faculty Id"
+                     android:background="@drawable/edittext_background"
+                     android:padding="9dp" />
+
+                 <EditText
+                     android:id="@+id/institute_faculty_name_upload"
+                     android:drawablePadding="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="10dp"
+                     android:ems="10"
+                     app:layout_constraintWidth_percent=".8"
+                     android:elevation="3dp"
+                     android:hint="Faculty name"
+                     android:background="@drawable/edittext_background"
+                     android:padding="9dp" />
+
+                 <EditText
+                     android:id="@+id/institute_faculty_email_upload"
+                     android:drawablePadding="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="10dp"
+                     android:ems="10"
+                     app:layout_constraintWidth_percent=".8"
+                     android:elevation="3dp"
+                     android:hint="Faculty E-mail"
+                     android:background="@drawable/edittext_background"
+                     android:padding="9dp" />
+                 <EditText
+                     android:id="@+id/qualification_faculty_Institute_upload"
+                     android:drawablePadding="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="10dp"
+                     android:ems="10"
+                     app:layout_constraintWidth_percent=".8"
+                     android:elevation="3dp"
+                     android:hint="Qualification"
+                     android:background="@drawable/edittext_background"
+                     android:padding="9dp" />
+
+                 <EditText
+                     android:id="@+id/experience_year_upload_faculty"
+                     android:drawablePadding="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="10dp"
+                     android:ems="10"
+                     app:layout_constraintWidth_percent=".8"
+                     android:elevation="3dp"
+                     android:hint="Experience"
+                     android:background="@drawable/edittext_background"
+                     android:padding="9dp" />
+
+
+
+                 <Button
+                     android:id="@+id/institute_faculty_details_btn"
+                     android:layout_width="200dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="20dp"
+                     android:layout_marginBottom="10dp"
+                     android:background="@drawable/corners"
+                     android:gravity="center|center_horizontal|center_vertical"
+                     android:paddingLeft="15dp"
+                     android:paddingTop="10dp"
+                     android:paddingBottom="10dp"
+                     android:text="Submit"
+                     app:backgroundTint="@color/main" />
+
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+
+     </ScrollView>
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
